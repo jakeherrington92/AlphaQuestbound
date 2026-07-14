@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1B2C3D4E5F600000000001 /* QuestboundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000101 /* QuestboundApp.swift */; };
+		0A1B2C3D4E5F600000000002 /* GameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000102 /* GameConstants.swift */; };
+		0A1B2C3D4E5F600000000003 /* HeroModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000103 /* HeroModels.swift */; };
+		0A1B2C3D4E5F600000000004 /* SaveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000104 /* SaveStore.swift */; };
+		0A1B2C3D4E5F600000000005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000105 /* ContentView.swift */; };
+		0A1B2C3D4E5F600000000006 /* SaveSlotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000106 /* SaveSlotListView.swift */; };
+		0A1B2C3D4E5F600000000007 /* HeroCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000107 /* HeroCreationView.swift */; };
+		0A1B2C3D4E5F600000000008 /* GreywickHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000108 /* GreywickHubView.swift */; };
+		0A1B2C3D4E5F600000000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000109 /* Assets.xcassets */; };
+		0A1B2C3D4E5F60000000000A /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000010A /* MainMenuView.swift */; };
+		0A1B2C3D4E5F60000000000B /* CharacterSheetPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000010B /* CharacterSheetPreviewView.swift */; };
+		0A1B2C3D4E5F60000000000C /* DiceRollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000010C /* DiceRollerView.swift */; };
+		0A1B2C3D4E5F60000000000D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000010D /* SettingsView.swift */; };
+		0A1B2C3D4E5F60000000000E /* CharacterCreationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000010E /* CharacterCreationData.swift */; };
+		0A1B2C3D4E5F60000000000F /* AbilityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000010F /* AbilityDetailView.swift */; };
+		0A1B2C3D4E5F600000000010 /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000111 /* RestView.swift */; };
+		0A1B2C3D4E5F600000000011 /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000112 /* ComingSoonView.swift */; };
+		0A1B2C3D4E5F600000000012 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000113 /* ItemData.swift */; };
+		0A1B2C3D4E5F600000000013 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000114 /* InventoryView.swift */; };
+		0A1B2C3D4E5F600000000014 /* EquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000115 /* EquipmentView.swift */; };
+		0A1B2C3D4E5F600000000015 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000116 /* ItemDetailView.swift */; };
+		0A1B2C3D4E5F600000000016 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000117 /* ShopView.swift */; };
+		0A1B2C3D4E5F600000000017 /* DiceRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000118 /* DiceRoller.swift */; };
+		0A1B2C3D4E5F600000000018 /* EnemyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000119 /* EnemyData.swift */; };
+		0A1B2C3D4E5F600000000019 /* CombatEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000011A /* CombatEngine.swift */; };
+		0A1B2C3D4E5F60000000001A /* CombatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000011B /* CombatView.swift */; };
+		0A1B2C3D4E5F60000000001B /* EnemyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000011C /* EnemyDetailView.swift */; };
+		0A1B2C3D4E5F60000000001C /* ConditionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000011D /* ConditionInfoView.swift */; };
+		0A1B2C3D4E5F60000000001D /* LootEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000011E /* LootEngine.swift */; };
+		0A1B2C3D4E5F60000000001E /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000011F /* RewardView.swift */; };
+		0A1B2C3D4E5F60000000001F /* BossRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000120 /* BossRewardView.swift */; };
+		0A1B2C3D4E5F600000000020 /* LevelUpEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000121 /* LevelUpEngine.swift */; };
+		0A1B2C3D4E5F600000000021 /* LevelUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000122 /* LevelUpView.swift */; };
+		0A1B2C3D4E5F600000000022 /* AdventureEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000123 /* AdventureEngine.swift */; };
+		0A1B2C3D4E5F600000000023 /* AdventureBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000124 /* AdventureBoardView.swift */; };
+		0A1B2C3D4E5F600000000024 /* AdventureRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000125 /* AdventureRoomView.swift */; };
+		0A1B2C3D4E5F600000000025 /* AdventureCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000126 /* AdventureCompleteView.swift */; };
+		0A1B2C3D4E5F600000000026 /* TutorialTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000127 /* TutorialTipView.swift */; };
+		0A1B2C3D4E5F600000000027 /* AttributeInfoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000128 /* AttributeInfoSheet.swift */; };
+		0A1B2C3D4E5F600000000028 /* AbilityRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F600000000129 /* AbilityRules.swift */; };
+		0A1B2C3D4E5F600000000029 /* DeveloperToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B2C3D4E5F60000000012A /* DeveloperToolsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A1B2C3D4E5F600000000101 /* QuestboundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestboundApp.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000102 /* GameConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConstants.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000103 /* HeroModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModels.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000104 /* SaveStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveStore.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000105 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000106 /* SaveSlotListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSlotListView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000107 /* HeroCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCreationView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000108 /* GreywickHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreywickHubView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000010A /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000010B /* CharacterSheetPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSheetPreviewView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000010C /* DiceRollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000010D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000010E /* CharacterCreationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCreationData.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000010F /* AbilityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityDetailView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000110 /* Questbound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questbound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1B2C3D4E5F600000000111 /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000112 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000113 /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000114 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000115 /* EquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000116 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000117 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000118 /* DiceRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRoller.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000119 /* EnemyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyData.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000011A /* CombatEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatEngine.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000011B /* CombatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000011C /* EnemyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyDetailView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000011D /* ConditionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionInfoView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000011E /* LootEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootEngine.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000011F /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000120 /* BossRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossRewardView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000121 /* LevelUpEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelUpEngine.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000122 /* LevelUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelUpView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000123 /* AdventureEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureEngine.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000124 /* AdventureBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureBoardView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000125 /* AdventureRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureRoomView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000126 /* AdventureCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureCompleteView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000127 /* TutorialTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialTipView.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000128 /* AttributeInfoSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeInfoSheet.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F600000000129 /* AbilityRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityRules.swift; sourceTree = "<group>"; };
+		0A1B2C3D4E5F60000000012A /* DeveloperToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperToolsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A1B2C3D4E5F600000000303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1B2C3D4E5F600000000201 = {
+			isa = PBXGroup;
+			children = (
+				0A1B2C3D4E5F600000000202 /* Questbound */,
+				0A1B2C3D4E5F600000000203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A1B2C3D4E5F600000000202 /* Questbound */ = {
+			isa = PBXGroup;
+			children = (
+				0A1B2C3D4E5F600000000204 /* Models */,
+				0A1B2C3D4E5F600000000205 /* Views */,
+				0A1B2C3D4E5F600000000206 /* Systems */,
+				0A1B2C3D4E5F600000000207 /* Data */,
+				0A1B2C3D4E5F600000000208 /* Assets */,
+				0A1B2C3D4E5F600000000101 /* QuestboundApp.swift */,
+			);
+			path = Questbound;
+			sourceTree = "<group>";
+		};
+		0A1B2C3D4E5F600000000203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A1B2C3D4E5F600000000110 /* Questbound.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A1B2C3D4E5F600000000204 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A1B2C3D4E5F600000000103 /* HeroModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A1B2C3D4E5F600000000205 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A1B2C3D4E5F600000000105 /* ContentView.swift */,
+				0A1B2C3D4E5F60000000010A /* MainMenuView.swift */,
+				0A1B2C3D4E5F600000000106 /* SaveSlotListView.swift */,
+				0A1B2C3D4E5F600000000107 /* HeroCreationView.swift */,
+				0A1B2C3D4E5F60000000010B /* CharacterSheetPreviewView.swift */,
+				0A1B2C3D4E5F60000000010F /* AbilityDetailView.swift */,
+				0A1B2C3D4E5F600000000114 /* InventoryView.swift */,
+				0A1B2C3D4E5F600000000115 /* EquipmentView.swift */,
+				0A1B2C3D4E5F600000000116 /* ItemDetailView.swift */,
+				0A1B2C3D4E5F600000000117 /* ShopView.swift */,
+				0A1B2C3D4E5F60000000011B /* CombatView.swift */,
+				0A1B2C3D4E5F60000000011C /* EnemyDetailView.swift */,
+				0A1B2C3D4E5F60000000011D /* ConditionInfoView.swift */,
+				0A1B2C3D4E5F60000000011F /* RewardView.swift */,
+				0A1B2C3D4E5F600000000120 /* BossRewardView.swift */,
+				0A1B2C3D4E5F600000000122 /* LevelUpView.swift */,
+				0A1B2C3D4E5F600000000124 /* AdventureBoardView.swift */,
+				0A1B2C3D4E5F600000000125 /* AdventureRoomView.swift */,
+				0A1B2C3D4E5F600000000126 /* AdventureCompleteView.swift */,
+				0A1B2C3D4E5F600000000127 /* TutorialTipView.swift */,
+				0A1B2C3D4E5F600000000128 /* AttributeInfoSheet.swift */,
+				0A1B2C3D4E5F600000000111 /* RestView.swift */,
+				0A1B2C3D4E5F600000000112 /* ComingSoonView.swift */,
+				0A1B2C3D4E5F60000000010C /* DiceRollerView.swift */,
+				0A1B2C3D4E5F60000000010D /* SettingsView.swift */,
+				0A1B2C3D4E5F600000000108 /* GreywickHubView.swift */,
+				0A1B2C3D4E5F60000000012A /* DeveloperToolsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A1B2C3D4E5F600000000206 /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				0A1B2C3D4E5F600000000104 /* SaveStore.swift */,
+				0A1B2C3D4E5F600000000118 /* DiceRoller.swift */,
+				0A1B2C3D4E5F60000000011A /* CombatEngine.swift */,
+				0A1B2C3D4E5F60000000011E /* LootEngine.swift */,
+				0A1B2C3D4E5F600000000121 /* LevelUpEngine.swift */,
+				0A1B2C3D4E5F600000000123 /* AdventureEngine.swift */,
+				0A1B2C3D4E5F600000000129 /* AbilityRules.swift */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		0A1B2C3D4E5F600000000207 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0A1B2C3D4E5F600000000102 /* GameConstants.swift */,
+				0A1B2C3D4E5F60000000010E /* CharacterCreationData.swift */,
+				0A1B2C3D4E5F600000000113 /* ItemData.swift */,
+				0A1B2C3D4E5F600000000119 /* EnemyData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0A1B2C3D4E5F600000000208 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0A1B2C3D4E5F600000000109 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A1B2C3D4E5F600000000301 /* Questbound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1B2C3D4E5F600000000401 /* Build configuration list for PBXNativeTarget "Questbound" */;
+			buildPhases = (
+				0A1B2C3D4E5F600000000302 /* Sources */,
+				0A1B2C3D4E5F600000000303 /* Frameworks */,
+				0A1B2C3D4E5F600000000304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Questbound;
+			productName = Questbound;
+			productReference = 0A1B2C3D4E5F600000000110 /* Questbound.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A1B2C3D4E5F600000000300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					0A1B2C3D4E5F600000000301 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 0A1B2C3D4E5F600000000400 /* Build configuration list for PBXProject "Questbound" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A1B2C3D4E5F600000000201;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0A1B2C3D4E5F600000000203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A1B2C3D4E5F600000000301 /* Questbound */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A1B2C3D4E5F600000000304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1B2C3D4E5F600000000009 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1B2C3D4E5F600000000302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1B2C3D4E5F600000000001 /* QuestboundApp.swift in Sources */,
+				0A1B2C3D4E5F600000000002 /* GameConstants.swift in Sources */,
+				0A1B2C3D4E5F60000000000E /* CharacterCreationData.swift in Sources */,
+				0A1B2C3D4E5F600000000012 /* ItemData.swift in Sources */,
+				0A1B2C3D4E5F600000000018 /* EnemyData.swift in Sources */,
+				0A1B2C3D4E5F600000000003 /* HeroModels.swift in Sources */,
+				0A1B2C3D4E5F600000000004 /* SaveStore.swift in Sources */,
+				0A1B2C3D4E5F600000000017 /* DiceRoller.swift in Sources */,
+				0A1B2C3D4E5F600000000019 /* CombatEngine.swift in Sources */,
+				0A1B2C3D4E5F60000000001D /* LootEngine.swift in Sources */,
+				0A1B2C3D4E5F600000000020 /* LevelUpEngine.swift in Sources */,
+				0A1B2C3D4E5F600000000022 /* AdventureEngine.swift in Sources */,
+				0A1B2C3D4E5F600000000005 /* ContentView.swift in Sources */,
+				0A1B2C3D4E5F600000000006 /* SaveSlotListView.swift in Sources */,
+				0A1B2C3D4E5F600000000007 /* HeroCreationView.swift in Sources */,
+				0A1B2C3D4E5F60000000000A /* MainMenuView.swift in Sources */,
+				0A1B2C3D4E5F60000000000B /* CharacterSheetPreviewView.swift in Sources */,
+				0A1B2C3D4E5F60000000000F /* AbilityDetailView.swift in Sources */,
+				0A1B2C3D4E5F600000000013 /* InventoryView.swift in Sources */,
+				0A1B2C3D4E5F600000000014 /* EquipmentView.swift in Sources */,
+				0A1B2C3D4E5F600000000015 /* ItemDetailView.swift in Sources */,
+				0A1B2C3D4E5F600000000016 /* ShopView.swift in Sources */,
+				0A1B2C3D4E5F60000000001A /* CombatView.swift in Sources */,
+				0A1B2C3D4E5F60000000001B /* EnemyDetailView.swift in Sources */,
+				0A1B2C3D4E5F60000000001C /* ConditionInfoView.swift in Sources */,
+				0A1B2C3D4E5F60000000001E /* RewardView.swift in Sources */,
+				0A1B2C3D4E5F60000000001F /* BossRewardView.swift in Sources */,
+				0A1B2C3D4E5F600000000021 /* LevelUpView.swift in Sources */,
+				0A1B2C3D4E5F600000000023 /* AdventureBoardView.swift in Sources */,
+				0A1B2C3D4E5F600000000024 /* AdventureRoomView.swift in Sources */,
+				0A1B2C3D4E5F600000000025 /* AdventureCompleteView.swift in Sources */,
+				0A1B2C3D4E5F600000000026 /* TutorialTipView.swift in Sources */,
+				0A1B2C3D4E5F600000000027 /* AttributeInfoSheet.swift in Sources */,
+				0A1B2C3D4E5F600000000028 /* AbilityRules.swift in Sources */,
+				0A1B2C3D4E5F600000000010 /* RestView.swift in Sources */,
+				0A1B2C3D4E5F600000000011 /* ComingSoonView.swift in Sources */,
+				0A1B2C3D4E5F60000000000C /* DiceRollerView.swift in Sources */,
+				0A1B2C3D4E5F60000000000D /* SettingsView.swift in Sources */,
+				0A1B2C3D4E5F600000000008 /* GreywickHubView.swift in Sources */,
+				0A1B2C3D4E5F600000000029 /* DeveloperToolsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A1B2C3D4E5F600000000501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A1B2C3D4E5F600000000502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A1B2C3D4E5F600000000503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J28GXP24BH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Questbound;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.role-playing-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.questbound.game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0A1B2C3D4E5F600000000504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J28GXP24BH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Questbound;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.role-playing-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.questbound.game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1B2C3D4E5F600000000400 /* Build configuration list for PBXProject "Questbound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1B2C3D4E5F600000000501 /* Debug */,
+				0A1B2C3D4E5F600000000502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1B2C3D4E5F600000000401 /* Build configuration list for PBXNativeTarget "Questbound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1B2C3D4E5F600000000503 /* Debug */,
+				0A1B2C3D4E5F600000000504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A1B2C3D4E5F600000000300 /* Project object */;
+}
